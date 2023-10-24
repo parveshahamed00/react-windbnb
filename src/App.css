@@ -1,0 +1,45 @@
+.nav-logo img{
+    width: 150px;
+}
+
+.cards{
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card img{
+    margin-top:10px ;
+    width: 100%;
+    border-radius: 10px;
+}
+.card .location{
+    font-style: oblique;
+}
+.card .description{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.card .type-ratings{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    /* width: 400px; */
+width: 400px;
+   padding: 10% 5%;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: rgb(255, 236, 236);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-container #city{
+    padding: 10px;
+    font-size: 15px;
+    font-family:monospace;
+}
